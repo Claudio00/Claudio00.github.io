@@ -3,75 +3,45 @@
 
 <head>
     <meta charset="utf-8" />
+    <script src="Scripts/w3.js"></script>
     <title>Claudio.Me</title>
-    <link href="CSSHome.css" rel="stylesheet" />
-    <link href="DropDown CSS.css" rel="stylesheet" />
+    <link href="Stylesheets/CSSHome.css" rel="stylesheet" />
+    <link href="Stylesheets/NavigationCSS.css" rel="stylesheet" />
 </head>
 
 <body>
-    
 
-    <p id="123">
+    <div w3-include-html="Standard Elements/Header.html"></div>
 
-    <div class="dropdown">
-        <span>Home</span>
-        <div class="dropdown-content">
-            <p><a href="index.html">Home</a></p>
-            <p><a href="Contact Me.html">Contact Me</a></p>
-        </div>
+    <br />
+    <br />
+    <p onclick="scrollDown()" id="ScrollDown">Scroll Down</p>
+    <br />
+    <br />
+    <br />
 
-    </div>
-        <div class="dropdown">
-            <span>Über mich</span>
-            <div class="dropdown-content">
-                <p>Allgemein</p>
-                <p>Hobbys</p>
-                <p>Ausbildung</p>
-            </div>
-        </div>
-
-        <div class="dropdown">
-            <span>Everything Here</span id="DropEverythi">     
-        </div>
-
-    </p>
-
-
-    <div id="ScrollDown">
-        <p>Scroll Down</p>
-    </div>
+    <script>
+        function scrollDown() {
+            console.log("function works");
+            window.scrollBy(0, 3000);
+        }
+    </script>
 
     <div class="parallax"></div>
 
-    <p id="Motto">
-        Simpel, Modern & Informativ.
-    </p>
+    <p id="Motto">Simpel, Modern & Informativ.</p>
 
-    <p id="HomeText">
-    Auf dieser Website kannst du vieles über mich erfahren. Ich hoffe dir gefällt was du siehst.
-    </p>
+    <p id="HomeText">Auf dieser Website kannst du vieles über mich erfahren. Ich hoffe dir gefällt was du siehst.</p>
 
-    <div id="ContactButton">
-        <a href="mailto://claudio.monaco@stud.bbbaden.ch">Contact me</a>
-        </div>
+    <a id="ContactButton" href="mailto://claudio.monaco@stud.bbbaden.ch">Contact me</a>
 
-    <div class="SubNavigation">
-        <div class="SubNav">
-    <p>
-        <ul class="Sub">
-            <li id="SubHome"><a href="index.html">Home</a></li>
-            <li id="SubÜberMich"><a href="ÜberMich.html">Über mich</a></li>
-            <li id="SubHobbys"><a href="Hobbys.html">Hobbys</a></li>
-            <li id="SubAusbildung"><a href="Ausbildung.html">Ausbildung</a></li>
-            <li id="SubEverythingHere"><a href="EverythingHere.html">Everything Here</a></li>
-        </ul>
-    </p>
-       </div>
-    <div class="NavButton">
-    <footer id="NavButton">
-        <b>Navigation</b>
-    </footer>
-    </div>
-    </div>
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <script>
+        w3.includeHTML();
+    </script>
 </body>
 </html>

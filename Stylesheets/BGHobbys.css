@@ -1,0 +1,70 @@
+﻿@font-face {
+    font-family: RobotoThin;
+    src: url('../Fonts/Roboto-Thin.ttf');
+}
+
+@font-face {
+    font-family: RobotoRegular;
+    src: url('../Fonts/Roboto-Regular.ttf');
+}
+
+body {
+    background: url('../Images/ManImage.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.parent {
+    width: 33.3333333333%;
+    float: left;
+    font-family: RobotoThin;
+}
+
+.parentText:hover {
+    opacity: 0.75;
+}
+
+.parent, .child {
+    color: black;
+    font-size: 40px;
+}
+
+.hoverIndicator {
+    margin: 10px;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+    background-color: whitesmoke;
+    font-family: RobotoRegular;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+.parentText {
+    background-color: whitesmoke;
+    margin: 50px 60px 0px 60px;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    margin-top: 50px;
+    transition: opacity 0.8s;
+}
+
+.childText {
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 30px;
+    font-size: 20px;
+
+}
+
+.child {
+    opacity: 0;
+    transition: opacity 0.8s;
+}
+
+.parent:hover .child {
+    opacity: 1;
+}

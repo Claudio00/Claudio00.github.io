@@ -5,19 +5,11 @@
     <title>Claudio.Me/Über mich</title>
     <link href="CSSUnterthemen.css" rel="stylesheet" />
     <link href="BGÜberMich.css" rel="stylesheet" />
+    <script src="Scripts/w3.js"></script>
     <link href="NavigationCSS.css" rel="stylesheet" />
 </head>
 <body>
-    <nav>
-        <div id="ClaudioMe">Claudio.Me</div>
-        <ul>
-            <li id="EverythingHere"><a href="EverythingHere.html">Everything Here</a></li>
-            <li id="Ausbildung"><a href="Ausbildung.html">Ausbildung</a></li>
-            <li id="Hobbys"><a href="Hobbys.html">Hobbys</a></li>
-            <li id="ÜberMich"><a href="ÜberMich.html">Über mich</a></li>
-            <li id="Home"><a href="index.html">Home</a></li>
-        </ul>
-    </nav>
+    <div w3-include-html="Standard Elements/Header.html"></div>
 
     <p id="Beschreibung">
         Ich bin 17 Jahre alt und gehe in die IMS in Aarau/Baden. Meine Freizeit besteht aus Musik & Sport machen, Videospielen und für die Schule lernen.
@@ -26,5 +18,9 @@
 
         Zusammen haben wir 2 Katzen namens Neo und Shakira.
     </p>
+
+    <script>
+        w3.includeHTML();
+    </script>
 </body>
 </html>

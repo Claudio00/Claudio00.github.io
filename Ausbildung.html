@@ -3,21 +3,12 @@
 <head>
     <meta charset="utf-8" />
     <title>Claudio.Me/Ausbildung</title>
+    <script src="Scripts/w3.js"></script>
     <link href="CSSUnterthemen.css" rel="stylesheet" />
-    <link href="BGAusbildung.css" rel="stylesheet" />
-    <link href="NavigationCSS.css" rel="stylesheet" />
+    <link href="Stylesheets/BGAusbildung.css" rel="stylesheet" />
 </head>
 <body>
-    <nav>
-        <div id="ClaudioMe">Claudio.Me</div>
-        <ul>
-            <li id="EverythingHere"><a href="EverythingHere.html">Everything Here</a></li>
-            <li id="Ausbildung"><a href="Ausbildung.html">Ausbildung</a></li>
-            <li id="Hobbys"><a href="Hobbys.html">Hobbys</a></li>
-            <li id="ÜberMich"><a href="ÜberMich.html">Über mich</a></li>
-            <li id="Home"><a href="index.html">Home</a></li>
-        </ul>
-    </nav>
+    <div w3-include-html="Standard Elements/Header.html"></div>
 
     <div class="BackgroundWay">
     <p id="Kindergarten">
@@ -52,5 +43,9 @@
         </ul>
     </p>
         </div>
+
+    <script>
+        w3.includeHTML();
+    </script>
 </body>
 </html>

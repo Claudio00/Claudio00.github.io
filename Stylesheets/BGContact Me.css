@@ -1,0 +1,29 @@
+﻿@font-face {
+    font-family: RobotoThin;
+    src: url('../Fonts/Roboto-Thin.ttf');
+}
+
+@font-face {
+    font-family: RobotoRegular;
+    src: url('../Fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: ModernFont;
+    src: url('../Fonts/AlegreyaSansSC-Thin.ttf');
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+body {
+    background: url('../Images/ManImage.jpg') no-repeat center center fixed;
+    background-size: cover;
+}

@@ -1,0 +1,279 @@
+﻿@font-face {
+    font-family: RobotoThin;
+    src: url('../Fonts/Roboto-Thin.ttf');
+}
+
+@font-face {
+    font-family: RobotoRegular;
+    src: url('../Fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: ModernFont;
+    src: url('../Fonts/AlegreyaSansSC-Thin.ttf');
+}
+
+body {
+    background: url('../Images/ManImage.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+#ScrollDown {
+    font-family: RobotoThin;
+    font-size: 35px;
+    border: 1px solid;
+    border-color: whitesmoke;
+    margin: 0 auto;
+    width: 200px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: whitesmoke;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.parallax1 {
+    /* The image used */
+    background-image: url('../Images/ComputerImage.jpg');
+    /* Set a specific height */
+    height: 600px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+#HomeTitel {
+    font-family: RobotoThin;
+    font-size: 60px;
+    border-bottom-style: solid;
+    border-width: 1px;
+    margin-top: 40px;
+    border-color: whitesmoke;
+    color: whitesmoke;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#Motto {
+    font-family: RobotoThin;
+    color: whitesmoke;
+    font-size: 100px;
+    text-align: center;
+}
+
+#HomeText {
+    font-family: RobotoThin;
+    font-size: 30px;
+    margin: 0;
+    text-align: center;
+    color: whitesmoke;
+    padding-bottom: 40px;
+    margin-top: 240px;
+}
+
+#ContactButton {
+    font-family: RobotoThin;
+    font-size: 35px;
+    border: 1px solid;
+    border-color: whitesmoke;
+    margin: 0 auto;
+    width: 200px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: whitesmoke;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+.parallax2 {
+    /* The image used */
+    background-image: url('../Images/Computer2.jpg');
+    /* Set a specific height */
+    height: 600px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+#ÜberMichTitel {
+    font-family: RobotoThin;
+    font-size: 60px;
+    border-bottom-style: solid;
+    border-width: 1px;
+    margin-top: 40px;
+    border-color: whitesmoke;
+    color: whitesmoke;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+#Beschreibung {
+    font-family: RobotoThin;
+    font-size: 30px;
+    color: whitesmoke;
+    margin-left: 820px;
+    margin-right: 80px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 140px;
+    border-left-style: solid;
+    border-color: whitesmoke;
+    margin-bottom: 160px;
+    border-width: 1px;
+}
+.parallax3 {
+    /* The image used */
+    background-image: url('../Images/Computer3.jpg');
+    /* Set a specific height */
+    height: 600px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.parent {
+    width: 33.3333333333%;
+    float: left;
+    font-family: RobotoThin;
+}
+
+.parentText:hover {
+    opacity: 0.75;
+}
+
+.parent, .child {
+    color: black;
+    font-size: 40px;
+}
+
+.hoverIndicator {
+    margin: 10px;
+    font-size: 16px;
+    text-align: center;
+    color: black;
+    background-color: whitesmoke;
+    font-family: RobotoRegular;
+    margin-left: 200px;
+    margin-right: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+}
+
+.parentText {
+    background-color: whitesmoke;
+    margin: 0px 60px 0px 60px;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    transition: opacity 0.8s;
+}
+
+.childText {
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 30px;
+    font-size: 20px;
+}
+
+.child {
+    opacity: 0;
+    transition: opacity 0.8s;
+}
+
+.parent:hover .child {
+    opacity: 1;
+}
+
+#HobbysTitel {
+    font-family: RobotoThin;
+    font-size: 60px;
+    border-bottom-style: solid;
+    border-width: 1px;
+    margin-top: 40px;
+    border-color: whitesmoke;
+    color: whitesmoke;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+    .parallax4 {
+    /* The image used */
+    background-image: url('../Images/Computer4.jpg');
+    /* Set a specific height */
+    height: 600px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    margin-top: 700px;
+}
+
+#Kindergarten, #Primarschule, #Oberstufe, #IMS {
+    background-color: whitesmoke;
+    font-family: RobotoThin;
+    font-size: 26px;
+    color: black;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+}
+
+#Way {
+    background-color: whitesmoke;
+    font-family: RobotoThin;
+    font-size: 18px;
+    color: black;
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-align: center;
+}
+
+.BackgroundWay {
+    background-color: whitesmoke;
+    margin: 100px 300px 60px 300px;
+    padding: 60px 120px 60px 120px;
+    border-radius: 20px;
+}
+
+#Primarschule, #Oberstufe, #IMS {
+    border-top-style: solid;
+    border-color: black;
+    padding-top: 14px;
+    border-width: 1px;
+}
+
+#Primarschule, #Oberstufe, #IMS, #Kindergarten {
+    font-size: 30px;
+}
+
+#AusbildungTitel {
+    font-family: RobotoThin;
+    font-size: 60px;
+    border-bottom-style: solid;
+    border-width: 1px;
+    margin-top: 40px;
+    border-color: whitesmoke;
+    color: whitesmoke;
+    text-align: center;
+    margin-left: 30%;
+    margin-right: 30%;
+}

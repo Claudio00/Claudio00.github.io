@@ -67,8 +67,7 @@
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
-  <ItemGroup>
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Import Include="Microsoft.VisualBasic" />
     <Import Include="System" />
@@ -94,31 +93,26 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Ausbildung.html" />
-    <Content Include="BGAusbildung.css" />
-    <Content Include="BGContact Me.css" />
-    <Content Include="BGEverythingHere.css" />
+    <Content Include="Scripts\w3.js" />
+    <Content Include="Standard Elements\Header.html" />
+    <Content Include="Stylesheets\BGAusbildung.css" />
+    <Content Include="Stylesheets\BGContact Me.css" />
+    <Content Include="Stylesheets\BGEverythingHere.css" />
     <Content Include="BGEverythingHere.html" />
-    <Content Include="BGHobbys.css" />
-    <Content Include="BGÜberMich.css" />
-    <Content Include="Computer2.jpg" />
-    <Content Include="Computer3.jpg" />
-    <Content Include="Computer4.jpg" />
-    <Content Include="ComputerImage.jpg" />
+    <Content Include="Stylesheets\BGHobbys.css" />
+    <Content Include="Stylesheets\BGÜberMich.css" />
+    <Content Include="Images\Computer2.jpg" />
+    <Content Include="Images\Computer3.jpg" />
+    <Content Include="Images\Computer4.jpg" />
+    <Content Include="Images\ComputerImage.jpg" />
     <Content Include="Contact Me.html" />
-    <Content Include="CSSHome.css" />
-    <Content Include="CSSUnterthemen.css" />
-    <Content Include="DropDown CSS.css" />
+    <Content Include="Stylesheets\CSSHome.css" />
+    <Content Include="Stylesheets\CSSUnterthemen.css" />
     <Content Include="EverythingHere.html" />
     <Content Include="Hobbys.html" />
     <Content Include="index.html" />
-    <Content Include="ManImage.jpg" />
-    <Content Include="Navigation.html" />
-    <Content Include="NavigationCSS.css" />
-    <Content Include="Road1.jpg" />
-    <Content Include="Road2.jpg" />
-    <Content Include="Road3.jpg" />
-    <Content Include="Road4.jpg" />
-    <Content Include="RoadImage.jpeg" />
+    <Content Include="Images\ManImage.jpg" />
+    <Content Include="Stylesheets\NavigationCSS.css" />
     <Content Include="Web.config" />
     <Content Include="ÜberMich.html" />
   </ItemGroup>
@@ -152,7 +146,7 @@
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="AlegreyaSansSC-Thin.ttf" />
+    <Content Include="Fonts\AlegreyaSansSC-Thin.ttf" />
     <None Include="My Project\Application.myapp">
       <Generator>MyApplicationCodeGenerator</Generator>
       <LastGenOutput>Application.Designer.vb</LastGenOutput>
@@ -163,8 +157,8 @@
       <LastGenOutput>Settings.Designer.vb</LastGenOutput>
     </None>
     <None Include="packages.config" />
-    <Content Include="Roboto-Thin.ttf" />
-    <Content Include="Roboto-Regular.ttf" />
+    <Content Include="Fonts\Roboto-Thin.ttf" />
+    <Content Include="Fonts\Roboto-Regular.ttf" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
