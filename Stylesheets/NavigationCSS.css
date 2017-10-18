@@ -8,8 +8,9 @@ nav {
     position: fixed;
     background-color: rgba(64, 64, 64, 0.8);
     display: inline-block;
-    margin-left: 8%;
+    margin-left: 4%;
     padding-right: 100px;
+    margin-right: 4%;
 }
 
 #ClaudioMe {
