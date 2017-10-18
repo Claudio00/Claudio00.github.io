@@ -1,0 +1,65 @@
+﻿@font-face {
+    font-family: RobotoThin;
+    src: url('../Fonts/Roboto-Thin.ttf');
+}
+
+@font-face {
+    font-family: RobotoRegular;
+    src: url('../Fonts/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: ModernFont;
+    src: url('../Fonts/AlegreyaSansSC-Thin.ttf');
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+body {
+    background-color: gainsboro;
+}
+
+.parallax {
+    /* The image used */
+    background-image: url('../Images/Watch.jpg');
+    /* Set a specific height */
+    height: 600px;
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+nav {
+    display: block;
+    background-color: rgba(64, 64, 64, 0.8);
+}
+
+li {
+    font-family: RobotoThin;
+    font-size: 30px;
+    color: whitesmoke;
+    display: inline-block;
+    margin: 5px 20px 5px 20px;
+    padding: 20px 40px 20px 40px;
+}
+
+.Claudio00 {
+    font-family: RobotoThin;
+    font-size: 30px;
+    color: black;
+    text-align: center;
+    border-bottom-style: solid;
+    margin-bottom: 20px;
+    border-width: 1px;
+}

@@ -6,29 +6,53 @@
     <script src="Scripts/w3.js"></script>
     <title>Claudio.Me</title>
     <link href="Stylesheets/CSSHome.css" rel="stylesheet" />
-    <link href="Stylesheets/NavigationCSS.css" rel="stylesheet" />
 </head>
 
 <body>
-
+ 
     <div w3-include-html="Standard Elements/Header.html"></div>
 
     <br />
     <br />
-    <p onclick="scrollDown()" id="ScrollDown">Scroll Down</p>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <a href="javascript:scrollDown()" id="ScrollDown">Scroll Down</a>
     <br />
     <br />
     <br />
 
     <script>
+        var x = 8; //Geschwindigkeit
+        var y = 1;
+        var scroll = false;
+
         function scrollDown() {
-            console.log("function works");
-            window.scrollBy(0, 3000);
+            scroll = true;
         }
+
+        setInterval(function () {
+            if (scroll)
+                window.scrollBy(0, x);
+        }, y);
+
+        window.onscroll = function () {
+            var d = document.documentElement;
+            var offset = d.scrollTop + window.innerHeight;
+            var height = d.offsetHeight;
+
+            if (offset+2 >= height) {
+                scroll = false;
+            }
+        };
     </script>
 
     <div class="parallax"></div>
-
+    <br />
+    <br />
+    <br />
     <p id="Motto">Simpel, Modern & Informativ.</p>
 
     <p id="HomeText">Auf dieser Website kannst du vieles über mich erfahren. Ich hoffe dir gefällt was du siehst.</p>

@@ -93,12 +93,14 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Ausbildung.html" />
+    <Content Include="Images\Watch.jpg" />
+    <Content Include="Stylesheets\Design2.css" />
+    <Content Include="Design2.html" />
     <Content Include="Scripts\w3.js" />
     <Content Include="Standard Elements\Header.html" />
     <Content Include="Stylesheets\BGAusbildung.css" />
     <Content Include="Stylesheets\BGContact Me.css" />
     <Content Include="Stylesheets\BGEverythingHere.css" />
-    <Content Include="BGEverythingHere.html" />
     <Content Include="Stylesheets\BGHobbys.css" />
     <Content Include="Stylesheets\BGÜberMich.css" />
     <Content Include="Images\Computer2.jpg" />

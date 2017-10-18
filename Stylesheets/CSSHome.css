@@ -59,8 +59,8 @@ body {
     margin: 0 auto;
     margin-bottom: 100px;
     width: 200px;
-    padding-top:6px;
-    padding-bottom:6px;
+    padding-top:10px;
+    padding-bottom:10px;
     padding-left:20px;
     padding-right:20px;
     color: whitesmoke;
@@ -80,9 +80,11 @@ body {
     font-size: 35px;
     border: 1px solid;
     border-color: whitesmoke;
+    display: block;
+    text-decoration: none;
     margin: 0 auto;
     width: 200px;
-    padding: 0px 20px 6px 20px;
+    padding: 14px 20px 14px 20px;
     color: whitesmoke;
     text-align: center;
 }
