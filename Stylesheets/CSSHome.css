@@ -25,7 +25,7 @@
     /* The image used */
     background-image: url('../Images/ComputerImage.jpg');
     /* Set a specific height */
-    height: 600px;
+    height: 700px;
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
@@ -79,14 +79,23 @@ body {
     font-family: RobotoThin;
     font-size: 35px;
     border: 1px solid;
-    border-color: whitesmoke;
+    border-color: black;
     display: block;
     text-decoration: none;
-    margin: 0 auto;
     width: 200px;
-    padding: 14px 20px 14px 20px;
+    padding: 5px 20px 5px 20px;
     color: whitesmoke;
-    text-align: center;
+    margin: 0 auto;
+    cursor: pointer;
+    box-shadow: inset 0 0 0 0 whitesmoke;
+    -webkit-transition: all ease 0.8s;
+    -moz-transition: all ease 0.8s;
+    transition: all ease 0.8s;
+}
+
+#ScrollDown:hover {
+  box-shadow: inset 0 100px 0 0 whitesmoke;
+  color: black;
 }
 
 .Navigation {
