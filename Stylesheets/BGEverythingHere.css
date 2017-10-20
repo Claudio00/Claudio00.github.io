@@ -88,10 +88,13 @@ body {
     padding-bottom: 6px;
     padding-left: 20px;
     padding-right: 20px;
-    color: whitesmoke;
     text-align: center;
     margin-bottom: 100px;
-    text-decoration: none;
+}
+
+#ContactButton a{
+  color: whitesmoke;
+  text-decoration: : none;
 }
 
 .parallax2 {
@@ -235,7 +238,6 @@ body {
     color: black;
     margin-top: 0%;
     margin-bottom: 0%;
-    text-align: center;
 }
 
 #Way {
@@ -245,7 +247,6 @@ body {
     color: black;
     margin-top: 0%;
     margin-bottom: 0%;
-    text-align: center;
 }
 
 .BackgroundWay {
@@ -274,7 +275,10 @@ body {
     margin-top: 40px;
     border-color: whitesmoke;
     color: whitesmoke;
-    text-align: center;
     margin-left: 30%;
     margin-right: 30%;
+}
+
+.TextText {
+  font-size: 24px;
 }

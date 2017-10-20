@@ -21,7 +21,6 @@ body {
     color: black;
     margin-top: 0%;
     margin-bottom: 0%;
-    text-align: center;
 }
 
 #Way {
@@ -31,7 +30,6 @@ body {
     color: black;
     margin-top: 0%;
     margin-bottom: 0%;
-    text-align: center;
 }
 
 .BackgroundWay {
@@ -47,4 +45,8 @@ body {
     border-color: black;
     padding-top: 14px;
     border-width: 1px;
+}
+
+.TextText {
+  font-size: 24px;
 }
